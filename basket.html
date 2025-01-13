@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Flower Shop - Login</title>
+  <title>Basket - Flower Shop</title>
   
   <!-- Bootstrap CSS -->
   <link
@@ -24,27 +24,11 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-
-  <!-- Owl Carousel (if needed) -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-  />
 </head>
 <body>
   <!-- Top bar -->
   <div class="topbar">
-    <marquee
-      direction="left"
-      loop=""
-      behavior="scroll"
-      class="marque"
-      bgcolor="#000000"
-    >
+    <marquee direction="left" loop="" behavior="scroll" class="marque" bgcolor="#000000">
       Unwrap the Magic of Christmas with 70% Off – Blossom Your Holidays with Our Enchanting Flowers!
     </marquee>
   </div>
@@ -56,10 +40,8 @@
         <div class="col-sm-12">
           <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-              <a class="navbar-brand" href="index.html">
-                <h1 class="logo">
-                  Flower <span class="clrchange">.</span>
-                </h1>
+              <a class="navbar-brand" href="#">
+                <h1 class="logo">Flower <span class="clrchange">.</span></h1>
               </a>
               <button
                 class="navbar-toggler"
@@ -74,23 +56,22 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#about">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#product">Products</a>
+                    <a class="nav-link" href="#product">Products</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#review">Review</a>
+                    <a class="nav-link" href="#review">Review</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
-
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="wishlist.html">
@@ -99,10 +80,9 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="basket.html">
-                      <i class="fa-solid fa-cart-plus"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
-                  </li>                  
-
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="login.html">
                       <i class="fa-solid fa-user"></i>
@@ -114,73 +94,138 @@
                     </a>
                   </li>
                 </ul>
-              </div><!-- /collapse -->
-            </div><!-- /container -->
+              </div>
+            </div>
           </nav>
-        </div><!-- /col-sm-12 -->
-      </div><!-- /row -->
-    </div><!-- /container -->
+        </div>
+      </div>
+    </div>
   </header>
 
-  <!-- Adapted "Contact" section to a "Login" section -->
-  <section class="section6" id="login" style="margin-top:200px;">
+  <!-- Basket Products Section -->
+  <section class="section4" id="product" style="margin-top: 200px;">
     <div class="container">
       <div class="row">
         <div class="col-sm-12" data-aos="fade-down">
           <h1 class="mainheading">
-            <span class="clrchange">Login</span> Here
+            Your <span class="clrchange">Basket</span>
           </h1>
         </div>
       </div>
+      <!-- Row 1 -->
       <div class="row">
-        <!-- Left side: login form -->
-        <div class="col-sm-6" data-aos="fade-right">
-          <form method="post" action="#">
-            <input type="text" placeholder="Username" required />
-            <input type="password" placeholder="Password" required />
-            <button class="links" type="submit">Login</button>
-          </form>
+        <div class="col-sm-4" data-aos="fade-right">
+          <div class="innerproductsection">
+            <span class="discount">-10%</span>
+            <img src="./assets/productsimg1.jpg" alt="Logo Image" />
+            <div class="cartcontainer">
+              <button class="wishlist"><i class="fa-solid fa-heart"></i></button>
+              <button class="btn">
+                Remove <i class="fa-solid fa-cart-plus"></i>
+              </button>
+              <button class="share"><i class="fa-solid fa-share"></i></button>
+            </div>
+            <h2>Flower Pot</h2>
+            <h1 class="price">
+              <span class="clrchange">$15.99</span> <del>$18.99</del>
+            </h1>
+          </div>
         </div>
-        <!-- Right side: image -->
-        <div class="col-sm-6" data-aos="fade-left">
-          <img src="./assets/contactimg1.png" alt="Login Image" class="contactimg" />
+        <div class="col-sm-4" data-aos="fade-up">
+          <div class="innerproductsection">
+            <span class="discount">-10%</span>
+            <img src="./assets/productsimg2.png" alt="Logo Image" />
+            <div class="cartcontainer">
+              <button class="wishlist"><i class="fa-solid fa-heart"></i></button>
+              <button class="btn">
+                Add To Cart <i class="fa-solid fa-cart-plus"></i>
+              </button>
+              <button class="share"><i class="fa-solid fa-share"></i></button>
+            </div>
+            <h2>Flower Pot</h2>
+            <h1 class="price">
+              <span class="clrchange">$15.99</span> <del>$18.99</del>
+            </h1>
+          </div>
+        </div>
+        <div class="col-sm-4" data-aos="fade-left">
+          <div class="innerproductsection">
+            <span class="discount">-10%</span>
+            <img src="./assets/productsimg3.png" alt="Logo Image" />
+            <div class="cartcontainer">
+              <button class="wishlist"><i class="fa-solid fa-heart"></i></button>
+              <button class="btn">
+                Add To Cart <i class="fa-solid fa-cart-plus"></i>
+              </button>
+              <button class="share"><i class="fa-solid fa-share"></i></button>
+            </div>
+            <h2>Flower Pot</h2>
+            <h1 class="price">
+              <span class="clrchange">$15.99</span> <del>$18.99</del>
+            </h1>
+          </div>
         </div>
       </div>
+      <!-- You can keep adding more rows if you want them here -->
     </div>
   </section>
 
+  <section class="section6" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" data-aos="fade-down">
+          <h1 class="mainheading">
+            <span class="clrchange">Complete</span> Order
+          </h1>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-6" data-aos="fade-right">
+          <form method="post" action="#" id="contactForm" class="d-flex flex-column align-items-center">
+            <input type="text" placeholder="Name" id="name" class="form-control mb-3" required />
+            <input type="email" placeholder="Address" id="email" class="form-control mb-3" required />
+            <input type="text" placeholder="Phone Number" id="phone" class="form-control mb-3" required />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Personalized Message"
+              cols="30"
+              rows="4"
+              class="form-control mb-3"
+              required
+            ></textarea>
+            <button class="links" type="submit">Pay Now!</button>
+          </form>
+          <p id="error-message" style="color: red; display: none;">
+            Please enter valid address and phone number.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
   <footer class="footer">
     <div class="container">
-        <div class="row copy-right">
-            <div class="col-sm-12 text-center">
-                <p>
-                    Created By <span class="clrchange">Gherle Darius Cristian</span> | All Rights Reserved
-                </p>
-                <p>Follow Us:</p>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com" target="_blank" class="social-link">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com" target="_blank" class="social-link">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank" class="social-link">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </div>
-                <div class="topbtn">
-                    <a href="#top" class="topbtninner">
-                        <i class="fa-solid fa-arrow-up"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="row copy-right">
+        <div class="col-sm-12 text-center">
+          <p>
+            Created By <span class="clrchange">Gherle Darius Cristian</span> | All Rights Reserved
+          </p>
+          <div class="topbtn">
+            <a href="#top" class="topbtninner">
+              <i class="fa-solid fa-arrow-up"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
-
-  <!-- jQuery, Popper, Bootstrap JS -->
-  <script
+  <!-- Scripts -->
+    <!-- jQuery, Popper, Bootstrap JS -->
+    <script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous"
@@ -224,6 +269,5 @@
   integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
   crossorigin="anonymous"></script>
 <script src="./app.js" defer></script>
-
 </body>
 </html>
