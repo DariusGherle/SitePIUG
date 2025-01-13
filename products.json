@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Flower1",
+      "image": "./assets/productsimg1.jpg",
+      "price": "$25.99",
+      "oldPrice": "$38.99",
+      "discount": "-40%"
+    },
+    {
+      "name": "Flower2",
+      "image": "./assets/productsimg2.png",
+      "price": "$10.99",
+      "oldPrice": "$18.99",
+      "discount": "-30%"
+    },
+    {
+      "name": "Flower Pot 3",
+      "image": "./assets/productsimg3.png",
+      "price": "$15.99",
+      "oldPrice": "$18.99",
+      "discount": "-10%"
+    },
+    {
+        "name": "Flower Pot 4",
+        "image": "./assets/productsimg1.jpg",
+        "price": "$8.99",
+        "oldPrice": "$9.99",
+        "discount": "-10%"
+      },
+      {
+        "name": "Flower Pot 5",
+        "image": "./assets/productsimg2.png",
+        "price": "$5.99",
+        "oldPrice": "$6.99",
+        "discount": "-14%"
+      },
+      {
+        "name": "Flower Pot 6",
+        "image": "./assets/productsimg3.png",
+        "price": "$16.99",
+        "oldPrice": "$18.99",
+        "discount": "-5%"
+      },
+      {
+        "name": "Flower Pot 7",
+        "image": "./assets/productsimg1.jpg",
+        "price": "$15.99",
+        "oldPrice": "$19.99",
+        "discount": "-20%"
+      },
+      {
+        "name": "Flower Pot 8",
+        "image": "./assets/productsimg2.png",
+        "price": "$10.99",
+        "oldPrice": "$12.99",
+        "discount": "-8%"
+      },
+      {
+        "name": "Flower Pot 9",
+        "image": "./assets/productsimg3.png",
+        "price": "$7.99",
+        "oldPrice": "$9.99",
+        "discount": "-20%"
+      }
+  ]
+  
